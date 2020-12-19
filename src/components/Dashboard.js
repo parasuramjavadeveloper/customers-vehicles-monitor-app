@@ -20,7 +20,7 @@ export const Dashboard = () => {
         setLoader(false);
         setCustomers(...customers, response);
       });
-    }, 20000);
+    }, 10000);
   }, []);
 
   const getCustomers = () => {
