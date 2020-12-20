@@ -6,6 +6,6 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'))
 });
 app.listen(3002, () => {
-   console.log("server is r  unnig on port 3002");
+   console.log("server is running on port 3002");
    console.log("Open your browser and hit url 'localhost:3002'");
 });
